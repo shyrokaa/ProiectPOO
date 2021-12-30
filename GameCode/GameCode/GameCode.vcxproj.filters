@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{25e9705a-f5ca-47c7-9bcb-98c539a8ea0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics">
+      <UniqueIdentifier>{ce657bb4-c2c9-4ee3-a53d-fd680f4cb87b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{b5f70ee8-2000-49d6-b779-d4bcde94af30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects">
+      <UniqueIdentifier>{f72eed85-9580-4007-bf43-a8802d0b77ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity">
+      <UniqueIdentifier>{5e19d635-c458-4e96-97b6-808386fa50b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Animation">
+      <UniqueIdentifier>{19c41b82-7080-40ab-8662-cfb1c8122b7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inputs">
+      <UniqueIdentifier>{ac7299a5-63b1-48a2-b1a3-efb13a37b3d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Map">
+      <UniqueIdentifier>{925c99e8-22f1-4700-bb7c-7448b8fc13b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TinyXML">
+      <UniqueIdentifier>{47d1b7d7-b013-4a2b-8927-160f7a42694e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Time">
+      <UniqueIdentifier>{09ab1dca-b20f-42fd-a9be-63f128e2633b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{8e0a80a0-ac79-41df-a82d-7a0f77f98424}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="CollidersManager">
+      <UniqueIdentifier>{488b58f4-a9f4-4136-931c-d63720bfe4a5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture_Mag.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Inputs</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Time</Filter>
+    </ClCompile>
+    <ClCompile Include="TileLayer.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Wizard.cpp">
+      <Filter>Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="MapParser.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\tinyxml-master\tinystr.cpp">
+      <Filter>TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\tinyxml-master\tinyxml.cpp">
+      <Filter>TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\tinyxml-master\tinyxmlerror.cpp">
+      <Filter>TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\tinyxml-master\tinyxmlparser.cpp">
+      <Filter>TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="CollidersManager.cpp">
+      <Filter>CollidersManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Entity</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Vector.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture_Mag.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="G_Object.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Rigid_Body.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Time</Filter>
+    </ClInclude>
+    <ClInclude Include="Layer.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMap.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="TileLayer.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Wizard.h">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="MapParser.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="tinystr.h">
+      <Filter>TinyXML</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml.h">
+      <Filter>TinyXML</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tinyxml-master\tinystr.h">
+      <Filter>TinyXML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tinyxml-master\tinyxml.h">
+      <Filter>TinyXML</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="CollidersManager.h">
+      <Filter>CollidersManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Entity</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\tinyxml-master\CMakeLists.txt">
+      <Filter>TinyXML</Filter>
+    </Text>
+    <Text Include="..\..\tinyxml-master\readme.txt">
+      <Filter>TinyXML</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

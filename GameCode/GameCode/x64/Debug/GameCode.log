@@ -1,0 +1,6 @@
+﻿  Engine.cpp
+D:\[facultate]\[2]\1\POO\Project\GameCode\GameCode\Engine.cpp(183,51): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\[facultate]\[2]\1\POO\Project\GameCode\GameCode\Engine.cpp(183,45): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\[facultate]\[2]\1\POO\Project\GameCode\GameCode\Engine.cpp(189,53): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\[facultate]\[2]\1\POO\Project\GameCode\GameCode\Engine.cpp(189,46): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  GameCode.vcxproj -> D:\[facultate]\[2]\1\POO\Project\GameCode\x64\Debug\GameCode.exe
